@@ -1,0 +1,26 @@
+.box {
+  width: 513px;
+  height: 756px;
+  position: relative;
+  margin-top: 70px;
+}
+
+.box::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #c5e0fb;
+  top: -60px;
+  left: -70px;
+  z-index: -1;
+  border-top-left-radius: 1920px;
+  border-top-right-radius: 1920px;
+}
+.box > img {
+  border-top-left-radius: 1920px;
+  border-top-right-radius: 1920px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
